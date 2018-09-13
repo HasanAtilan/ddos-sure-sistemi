@@ -2,12 +2,12 @@
  
 int main(int argc, char **argv[]){
  
-char basla[255];
-sprintf(basla,"screen -AmdS saldir ./mrhasan %s %s",argv[1],argv[1]);
-system(basla);
+char aktifet[255];
+sprintf(aktifet,"screen -AmdS saldir ./mrhasan %s %s",argv[1],argv[1]);
+system(aktifet);
  
-char bitir[255];
-sprintf(bitir,"sleep %s && screen 0 saldir x quit %s %s",argv[3]);
-system(bitir);
+char sonlandir[255];
+sprintf(sonlandir,"sleep %s && screen 0 saldir x quit %s %s",argv[3]);
+system(sonlandir);
  
 }
